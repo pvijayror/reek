@@ -44,7 +44,6 @@ module Reek
         else
           []
         end
-        # BUG: no longer reports nesting outside methods (eg. in Optparse)
       end
 
       private
