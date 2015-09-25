@@ -1,7 +1,7 @@
 require 'rake/clean'
 require_relative '../lib/reek/smells/smell_repository'
 
-CONFIG_FILE = 'config/defaults.reek'
+CONFIG_FILE = 'defaults.reek'
 
 file CONFIG_FILE do
   config = {}
